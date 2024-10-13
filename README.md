@@ -32,7 +32,7 @@ Fork this repository and run the GitHub Actions as-is so that you can register y
 
 
 
-## Running the FastAPI server locally
+## II. Running the FastAPI server locally
 
 1. **Make sure `uvicorn` is well installed**
     ```bash
@@ -57,9 +57,9 @@ Fork this repository and run the GitHub Actions as-is so that you can register y
    ```
 
 
-## CI/CD Packaging with GitHub Actions
+## III. CI/CD Packaging with GitHub Actions
 The goal of using GitHub Actions is **to automate the process of building and deploying containerized applications**, particularly in the context of MLOps workflows. 
 
 Instead of manually building, tagging, and pushing containers to a registry like Docker Hub, Azure, or AWS, automation ensures this process is streamlined and repeatable with minimal manual intervention. By setting up a workflow in GitHub Actions, the entire process — from building the container to publishing it to a registry — can be triggered with a single action, making deployment more efficient and reducing the risk of errors.
 
-Check out the `main.yml` file in the `.github/workflows` directory for more details about the worflow.
+**Check out the `main.yml` file in the `.github/workflows` directory for more details about the worflow.**
