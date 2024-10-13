@@ -63,3 +63,12 @@ The goal of using GitHub Actions is **to automate the process of building and de
 Instead of manually building, tagging, and pushing containers to a registry like Docker Hub, Azure, or AWS, automation ensures this process is streamlined and repeatable with minimal manual intervention. By setting up a workflow in GitHub Actions, the entire process — from building the container to publishing it to a registry — can be triggered with a single action, making deployment more efficient and reducing the risk of errors.
 
 **Check out the `main.yml` file in the `.github/workflows` directory for more details about the worflow.**
+
+
+## IV. References / Links 🦚
+
+- [Alfredo Deza repo](https://github.com/alfredodeza/huggingface-ghcr)
+
+- [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/)
+
+
